@@ -4,5 +4,5 @@ dependencies:
 compiler:
   solc:
     remappings:
-      - '@openzeppelin=OpenZeppelin/openzeppelin-contrcts@4.3.2'
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.3.2'
       - '@chainlink=smartcontractkit/chainlink-brownie-contracts@0.2.1'
