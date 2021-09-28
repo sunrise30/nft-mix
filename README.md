@@ -9,3 +9,7 @@ brownie compile
 brownie run scripts/advanced_collectible/deploy_advanced.py
 brownie run scripts/advanced_collectible/deploy_advanced.py --network rinkeby
 ```
+### Scripts
+```
+brownie run scripts/advanced_collectible/create_collectible.py --network rinkeby
+```
