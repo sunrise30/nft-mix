@@ -6,5 +6,6 @@ brownie compile
 ```
 ### Deploy
 ```
-brownie run .\scripts\advanced_collectible\deploy_advanced.py
+brownie run scripts/advanced_collectible/deploy_advanced.py
+brownie run scripts/advanced_collectible/deploy_advanced.py --network rinkeby
 ```

@@ -1,3 +1,6 @@
+reports:
+  exclude_contracts:
+    - SafeMath
 dependencies:
   - OpenZeppelin/openzeppelin-contracts@4.3.2
   - smartcontractkit/chainlink-brownie-contracts@0.2.1
@@ -6,6 +9,10 @@ compiler:
     remappings:
       - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.3.2'
       - '@chainlink=smartcontractkit/chainlink-brownie-contracts@0.2.1'
+dotenv: .env
 wallets:
   from_key: ${PRIVATE_KEY}
   from_mnemonic: ${MNEMONIC}
+networks:
+  default: development
+  rinkeby:
